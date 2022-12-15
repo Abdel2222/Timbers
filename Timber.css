@@ -7,16 +7,20 @@
     text-decoration: none;
 }
 header{
-    background-color: rgba(25, 25, 112, 0.278);
+    background-color: rgba(25, 25, 112, 0.715);
     height: 120px;
-    color: aliceblue;
+    color: white;
+    width: 100%;
     
 }
 .navbar{ 
+    height: 10%;
     width:100%;
     display: flex;
     padding: 50px;
     justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     position:absolute;
     top:0px;
     left:0px;
@@ -27,19 +31,32 @@ header{
 
     
 }
+.navbar a{
+    color: white;
+}
 .navbar .logo{
-    font-size: 1.8rem;
+    position: absolute;
+    left: 5px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: whitesmoke;
+    margin-left: -12px;
+    
+    width: 10%;
+    opacity: 0.5;
+    
+    background-color: #1919707b;
 }
 .navbar .listes{
     margin-right: 400px;
+    font-size: 1.6rem;
 }
 
 
 .navbar .listes ul{
     display: flex;
     justify-content: space-between;
+    color: white;
     
     
 }
@@ -48,20 +65,26 @@ header{
     justify-content: space-between;
     padding: 20px;
     font-size: 1.5rem;
-    color: white;
+    color: red;
+    margin: 5px;
+    
 }
 .navbar .login{
     display: flex;
     justify-content: space-between;
     margin: 0 65px;
-    width: 10%;
-    height: 15%;
+    width: 15%;
+    
 }
 .navbar .login button{
     background-color: orangered;
     border-radius: 12%;
-    width: 85%;
-    margin: 0 20px;
+    width: 500px;
+    height: 50%;
+    margin: 0 60px;
+}
+.login a {
+    text-decoration:underline;
 }
 nav .navbar2{ 
     position: relative;
@@ -95,19 +118,19 @@ nav.navbar2 .listes2 ul li{
     
     justify-content: space-between;
      padding: 20px;
-     word-spacing: 20px;
+     word-spacing: 10px;
 }
 .principale{
     width: 60%;
     height: 100vh;
-    border: 2px solid blue;
+    border: 1px solid  rgba(25, 25, 112, 0.715);;
     position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
      padding: 0px ;
 }
-}
+
 main .placement h1{
     position: absolute;
     left: 0;
@@ -127,12 +150,12 @@ main .bouttons{
     top: 100px;
     left: 1px;
     color: blue;
-    width: 40%;
+    width: 60%;
 }
 article .sideright{
     width: 40%;
     height: 80%;
-    border:2px solid blue;
+   border: 1px solid  rgba(25, 25, 112, 0.715);; 
     
     position:absolute;
     top: 150px;
@@ -146,47 +169,73 @@ img{
     
 } 
 .bouttons{
-    display: inline-block;
+    display: flex;
 }
  .bouttons .btn1{
     width: 10%;
     color: blue;
     border-radius: 20%;
     margin: 0 20px;
-    height: 10%;
+    height: 100%;
 }
 .bouttons .btn2{
-    width: 10%;
+    
     color: blue;
     border-radius: 10%;
     margin: 0 20px;
-    height: 10%;
+    height: 100%;
 }
 .bouttons .btn3{
-    width: 5%;
+    
     color: blue;
-    border-radius: 0%;
+    border-radius: 10%;
     margin: 0 10px;
     height: 10%;
 }.bouttons .btn4{
-    width: 20%;
+    
     color: blue;
     border-radius: 10%;
     margin: 0 20px;
-    height: 10%;
+    height: 15%;
     
 }.bouttons .btn5{
-    width: 7%;
+   
     color: blue;
-    border-radius: 6%;
+    border-radius: 16%;
     margin: 0 10px;
-    height: 10%;
+    height: 20%;
 }
 article .textimg{
     display: flex;
     flex-direction: column;
  justify-content: space-between;
  align-items: center;
+}
+main .p1{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+main .pos1{
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    left: 5%;
+    
+}
+main .pos2{
+    position: absolute;
+    width: 50%;
+    left: 1%;
+    top: 25%;
+    word-break:inherit;
+    font-size: 1.2rem;
+    clear: both;
+}
+span{color: blue;}
+article div .seeunder{
+    border: 0.5px solid bleue;
+    width: 70%;
 }
 
 
