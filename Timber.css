@@ -123,7 +123,7 @@ nav.navbar2 .listes2 ul li{
 }
 .principale{
     width: 60%;
-    height: 100vh;
+    height: 120vh;
     border: 1px solid  rgba(25, 25, 112, 0.715);;
     position: relative;
     display: flex;
@@ -155,7 +155,7 @@ main .bouttons{
 }
 article .sideright{
     width: 40%;
-    height: 70%;
+    height: 75%;
    border: 1px solid  rgba(25, 25, 112, 0.715);; 
     
     position:absolute;
